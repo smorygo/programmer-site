@@ -18,4 +18,5 @@ app.get('/portfolio', function(req, res){ // Обрабатываем запро
 
 var port = process.env.PORT || 5000;       
 app.listen(port)                           // Запускаем сервер на 5000 порту, если не указана переменная окружения "port" 
-console.log("Listening at " + port)        // Пишем в консоль, что запустились
+console.log("Listening at port" + port)        // Пишем в консоль, что запустились
+
